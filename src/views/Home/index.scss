@@ -5,7 +5,7 @@
     height: 100vh;
     overflow: hidden;
     &__Area-top {
-        width: 73%;
+        width: 77%;
         margin: auto;
         padding-top: 40px;
         align-items: center;
@@ -25,6 +25,11 @@
     &__Banner img{
         width: 560px;
         margin-top: -30px;
+
+        &:hover {
+            transform: scale(1.1);
+            transition: 0.5s;
+        }
     }
 
     &__Container-frase {

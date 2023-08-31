@@ -1,8 +1,11 @@
 import * as React from 'react'
 import * as ReactDOM from "react-dom/client";
 import App from './App.jsx'
-import Home from './views/Home/Home.jsx';
 import './index.scss'
+
+import Home from './views/Home/Home.jsx';
+import PageProduct from './views/pageProducts/pageProduct.jsx';
+
 
 import {
   createBrowserRouter,
@@ -17,6 +20,10 @@ const router = createBrowserRouter([
       {
         path: "",
         element: <Home />
+      },
+      {
+        path: "/products",
+        element: <PageProduct />
       }
     ]
   },

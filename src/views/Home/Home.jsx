@@ -3,6 +3,7 @@ import logoNike from '../../assets/logoNike.svg';
 import logoJordan from '../../assets/logoJordan.svg';
 
 import './index.scss';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -17,7 +18,9 @@ const Home = () => {
                     </div>
                 </div>
                 <div className='Home__Banner'>
-                    <img src={banner} />
+                    <Link to={'/products'}>
+                        <img src={banner} />
+                    </Link>
                 </div>
                 <div className='Home__Container-frase'>
                     <h1>Just To It</h1>
