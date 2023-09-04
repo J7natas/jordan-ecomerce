@@ -1,5 +1,50 @@
+.ProductPage {
 
-.Container {
-    display: grid;
-    grid-template-columns: repeat(20, auto);
+    &__Banner {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    &__Banner img {
+        width: 1200px;
+        height: 260px;
+    }
+
+    &__Cont-cards {
+        display: flex;
+        align-items: center;
+    }
+
+    &__Cont-cards img {
+        width: 25px;
+        height: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+
+    &__Container,
+    &__Container2,
+    &__Container3,
+    &__Container4,
+    &__Container5 {
+        width: 100%;
+        height: 45vh;
+        display: flex;
+        overflow-x: auto;
+        overflow-y: hidden;
+        scroll-behavior: smooth;
+    }
+
+    &__Container::-webkit-scrollbar,
+    &__Container2::-webkit-scrollbar,
+    &__Container3::-webkit-scrollbar,
+    &__Container4::-webkit-scrollbar,
+    &__Container5::-webkit-scrollbar {
+        display: none;
+    }
+
 }
+

@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Kantumruy+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,500&family=Kaushan+Script&display=swap');
 
 .ProductCard {
     padding: 40px;
+    font-family: 'Kantumruy Pro';
 
     .Product-img {
         display: flex;
@@ -26,13 +28,21 @@
         align-items: center;
         margin-top: 15px;
         background-color: #E00000;
-        width: 100px;
+        width: 120px;
         height: 30px;
         border-radius: 20px;
+    }
+
+    .product-button:hover {
+        background-color: aliceblue;
+        color: black;
+        transform: scale(1.1);
+        transition: 0.5s;
     }
 
     .Product-img a {
         color: white;
         text-decoration: none;
+        font-weight: 600;
     }
 }

@@ -1,0 +1,19 @@
+header{
+    background-color: #B00000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .logo {
+        width: 50px;
+        height: 50px;
+    }
+}

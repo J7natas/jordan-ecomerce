@@ -1,0 +1,155 @@
+
+.ProductDetail {
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    &__detalhes {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    &__Are-left {
+        width: 700px;
+        height: 550px;
+        border-radius: 30px;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__Are-left img {
+        width: 660px;
+        height: 450px;
+        border-radius: 20px;
+        margin-top: 10px;
+    }
+
+    &__Are-left h2 {
+        color: white;
+        margin-top: 15px;
+    }
+
+    &__Are-left p {
+        color: white;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+
+    &__Are-left h5 {
+        color: white;
+        letter-spacing: 10px;
+        font-size: 30px;
+    }
+
+    &__Container-imgs {
+        display: flex;
+    }
+
+    &__Container-imgs img {
+        width: 140px;
+        border-radius: 20px;
+        margin-right: 10px;
+        margin-top: 120px;
+    }
+
+    &__Container-imgs img:hover{
+        cursor: pointer;
+        border: 2px solid red;
+    }
+
+    &__Area-compra {
+        width: 450px;
+        margin-top: 70px;
+        background-color: black;
+        border-radius: 20px;
+    }
+
+    &__Preco {
+        padding-top: 20px;
+    }
+    
+    &__Area-compra p {
+        color: white;
+        font-size: 20px;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+
+    &__Button-compra{
+        width: 150px;
+        height: 30px;
+        background-color: #E00000;
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+        border: none;
+        border-radius: 10px;
+        margin-left: 150px;
+        margin-top: 40px;
+        margin-bottom: 15px;
+        cursor: pointer;
+    }
+
+    &__Button-compra:hover,
+    &__Button-voltar:hover {
+        background-color: darkgreen;
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+
+    &__Button-voltar {
+        width: 150px;
+        height: 30px;
+        background-color: #E00000;
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+        border: none;
+        border-radius: 10px;
+        margin-left: 150px;
+        margin-bottom: 30px;
+        cursor: pointer;
+    }
+}
+
+#Carrinho {
+    position: absolute;
+    max-width: 200px;
+    max-height: 150px;
+    background-color: rgb(241, 230, 214);
+    margin-left: -150px;
+    padding: 20px;
+}
+
+#Carrinho .flex {
+    display: flex;
+    margin-left: -20px;
+}
+
+#Carrinho img {
+    height: 50px;
+    width: 50px;
+}
+
+#Carrinho p {
+    color: green;
+    font-weight: 600;
+}
+
+Header .count {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: orange;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 40px;
+    color: white;
+    font-size: 13px;
+    display: none;
+}

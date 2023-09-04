@@ -10,8 +10,8 @@ export class productServices {
         return axios(whitebaseUrl("/obter"))
     }
 
-    static getProductId(id){
-        return axios(whitebaseUrl(`/obter/${id}`))
+    static getProductId(_id){
+        return axios(whitebaseUrl(`/obter/${_id}`))
     }
 
     static getProductCor(cor){
