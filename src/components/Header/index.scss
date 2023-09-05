@@ -40,3 +40,21 @@
     }
 
 }
+@media screen and (max-width: 280px){
+
+    .Header {
+        height: 60px;
+    }
+
+    .Header__Container-icon img {
+        width: 30px;
+        height: 30px;
+        margin-top: 10px;
+        margin-left: -19px;
+    }
+
+    .Header__Carrinho img {
+        width: 25px;
+        height: 25px;
+    }
+}
